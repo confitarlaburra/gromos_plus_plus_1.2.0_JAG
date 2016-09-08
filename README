@@ -4,6 +4,33 @@ analysis.
 
 Have a look at http://wwi.igc.ethz.ch/gromos++.html
 
+With programs for nanotubes analyses JAG 8/9/16
+
+cavity_load
+temperature
+gatherNT
+pore_loading
+gatherNT
+pore_ads
+pore_ax_rad
+pore_pf
+pore_pf_multi
+pore_diffus
+pore_P1
+pore_Pcorr
+pore_rates
+pore_dist_corr
+pore_surv_P
+pore_hsolv
+pore_hbond
+graphite
+pore_rot_rel
+dipole_corr
+Kinetic_MC
+diffus_test
+
+
+
 
 Installation:
 -------------
