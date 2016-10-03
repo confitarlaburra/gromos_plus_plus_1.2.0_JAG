@@ -424,7 +424,7 @@ int main(int argc, char **argv)  {
     if (normalization.compare("rdf") == 0) {
       Total_density = count_atoms.size()/box_volume;
       // const factor of the volume of a cylinder 
-      const_factor  = PI*bin_size_r*pore_radius*pore_radius;
+      const_factor  = PI*bin_size_z*pore_radius*pore_radius;
       // norm factor (dNs/Vshell)/(Ntotal/Vtotal)
       norm = Total_density*const_factor;
       // Include the average
